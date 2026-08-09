@@ -1,5 +1,7 @@
 # Use Case: Large Offline Eval Sweeps
 
+**YouTube walkthrough:** [Offline Eval Sweeps — System Design #Shorts](https://youtu.be/NsyLa3BvTA0)
+
 **Design doc:** [docs/DESIGN.md](./docs/DESIGN.md) — architecture, patterns, and why.
 
 
@@ -48,6 +50,9 @@ Prefer **inference-style workers** over heavy training gangs when possible; stil
 
 
 ## Design walkthrough (opens on GitHub)
+
+> **Watch on YouTube:** [Offline Eval Sweeps — System Design #Shorts](https://youtu.be/NsyLa3BvTA0)
+
 
 ![Design overview](docs/video/design-overview.gif)
 
