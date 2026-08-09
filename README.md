@@ -46,6 +46,13 @@ Prefer **inference-style workers** over heavy training gangs when possible; stil
 
 
 
+
+## Design walkthrough (opens on GitHub)
+
+![Design overview](docs/video/design-overview.gif)
+
+Full narrated video (download): [docs/video/design-overview.mp4](docs/video/design-overview.mp4)
+
 ## Run (self-contained POC)
 
 This folder is a **standalone** project (safe to split into its own GitHub repo).
