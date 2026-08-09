@@ -1,7 +1,7 @@
 # Design: Offline Eval Sweeps
 
 **Project:** `offline-eval-sweeps`  
-**Parent system design:** [03 — Distributed Training & Job Orchestration](../03-distributed-training-orchestration.md) · [05 — Model Monitoring & Behavior Observability](../05-model-monitoring-observability.md) · [08 — Fine-Tuning / Eval Data Pipelines](../08-finetuning-eval-data-pipelines.md)
+**Parent system design:** [03 — Distributed Training & Job Orchestration](https://github.com/Debashis2007/offline-eval-sweeps/blob/main/03-distributed-training-orchestration.md) · [05 — Model Monitoring & Behavior Observability](https://github.com/Debashis2007/offline-eval-sweeps/blob/main/05-model-monitoring-observability.md) · [08 — Fine-Tuning / Eval Data Pipelines](https://github.com/Debashis2007/offline-eval-sweeps/blob/main/08-finetuning-eval-data-pipelines.md)
 
 ## 1. What this POC demonstrates
 
