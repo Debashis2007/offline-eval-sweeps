@@ -7,8 +7,8 @@
 **Design doc:** [docs/DESIGN.md](./docs/DESIGN.md) — architecture, patterns, and why.
 
 
-**Parent system design:** [03 — Distributed Training & Job Orchestration](../03-distributed-training-orchestration.md)  
-**Also references:** [05 — Model monitoring](../05-model-monitoring-observability.md), [08 — Data pipelines](../08-finetuning-eval-data-pipelines.md)
+**Parent system design:** [03 — Distributed Training & Job Orchestration](./03-distributed-training-orchestration.md)  
+**Also references:** [05 — Model monitoring](./05-model-monitoring-observability.md), [08 — Data pipelines](./08-finetuning-eval-data-pipelines.md)
 
 ## Users & problem
 
@@ -39,7 +39,7 @@ Prefer **inference-style workers** over heavy training gangs when possible; stil
 |---------|-------------------|
 | Priority | Below interactive; can use spot/preemptible |
 | Isolation | Don’t steal chat capacity—separate pool |
-| Data | Golden sets; leakage firewall ([08](../08-finetuning-eval-data-pipelines.md)) |
+| Data | Golden sets; leakage firewall ([08](./08-finetuning-eval-data-pipelines.md)) |
 | Compare | Paired A/B against control revision |
 
 ## Failure modes
